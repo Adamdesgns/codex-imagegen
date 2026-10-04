@@ -1,0 +1,11 @@
+{
+  "name": "codex-imagegen",
+  "version": "0.1.0",
+  "description": "Generate still images (character references, storyboard frames, illustrations, product shots) with your own ChatGPT account through the OpenAI Codex CLI. No browser, no API key.",
+  "author": {
+    "name": "Adamdesgns"
+  },
+  "license": "MIT",
+  "keywords": ["image-generation", "codex", "chatgpt", "storyboard", "character-reference", "images"],
+  "skills": ["./skills/codex-imagegen"]
+}

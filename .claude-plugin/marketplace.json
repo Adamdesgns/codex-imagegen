@@ -1,0 +1,23 @@
+{
+  "name": "codex-imagegen",
+  "owner": {
+    "name": "Adamdesgns"
+  },
+  "metadata": {
+    "description": "Generate still images from Claude Code with your own ChatGPT account through the Codex CLI.",
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "codex-imagegen",
+      "source": "./",
+      "description": "Generate still images (character references, storyboard frames, illustrations, product shots) with your own ChatGPT account through the OpenAI Codex CLI. No browser, no API key.",
+      "version": "0.1.0",
+      "author": {
+        "name": "Adamdesgns"
+      },
+      "keywords": ["image-generation", "codex", "chatgpt", "storyboard", "character-reference", "images"],
+      "category": "media"
+    }
+  ]
+}

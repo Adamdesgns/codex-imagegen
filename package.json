@@ -1,0 +1,15 @@
+{
+  "name": "codex-imagegen",
+  "version": "0.1.0",
+  "description": "Claude Code plugin: generate still images with your own ChatGPT account through the OpenAI Codex CLI.",
+  "private": true,
+  "type": "module",
+  "license": "MIT",
+  "author": "Adamdesgns",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "test": "node --test"
+  }
+}
