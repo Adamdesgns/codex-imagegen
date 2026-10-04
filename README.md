@@ -20,9 +20,11 @@ Use it for character references, storyboard frames, illustrations, concept art a
 From inside Claude Code:
 
 ```
-/plugin marketplace add Adamdesgns/codex-imagegen
+/plugin marketplace add https://github.com/Adamdesgns/codex-imagegen.git
 /plugin install codex-imagegen@codex-imagegen
 ```
+
+The short form `/plugin marketplace add Adamdesgns/codex-imagegen` also works, but Claude Code clones it over SSH, so it fails with `Permission denied (publickey)` unless you have an SSH key set up for GitHub. The HTTPS line above works for everyone.
 
 To test a local copy without installing it:
 
